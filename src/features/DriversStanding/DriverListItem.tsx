@@ -13,7 +13,7 @@ export type Driver = {
 
 export function DriverListItem(driver: Driver) {
   return (
-    <Card radius="md" shadow="md">
+    <Card radius="md" shadow="xs">
       <Stack>
         <Group justify="space-between">
           <Title>{driver.position}</Title>
